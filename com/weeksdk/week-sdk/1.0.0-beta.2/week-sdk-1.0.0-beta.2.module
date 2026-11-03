@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.weeksdk",
+    "module": "week-sdk",
+    "version": "1.0.0-beta.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "week-sdk-1.0.0-beta.2.aar",
+          "url": "week-sdk-1.0.0-beta.2.aar",
+          "size": 113290,
+          "sha512": "e1b537ce9c390f8422b708888f1c6e48facb1d1790c1057014c2e8ca5dd4d8d75da6cc13f28ebde4033e148b89a119d636765b16d93c346926ce6e8e423640d6",
+          "sha256": "f0e61ba5803f1c154b3b9b1024111f7e8d9b8d2703ad5922ad6e617bcb3ee15c",
+          "sha1": "0189d8a7c370d433a101af6a5d841a768df50097",
+          "md5": "27cda2a0a11be1a820d614ec18d27aec"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "week-sdk-1.0.0-beta.2.aar",
+          "url": "week-sdk-1.0.0-beta.2.aar",
+          "size": 113290,
+          "sha512": "e1b537ce9c390f8422b708888f1c6e48facb1d1790c1057014c2e8ca5dd4d8d75da6cc13f28ebde4033e148b89a119d636765b16d93c346926ce6e8e423640d6",
+          "sha256": "f0e61ba5803f1c154b3b9b1024111f7e8d9b8d2703ad5922ad6e617bcb3ee15c",
+          "sha1": "0189d8a7c370d433a101af6a5d841a768df50097",
+          "md5": "27cda2a0a11be1a820d614ec18d27aec"
+        }
+      ]
+    }
+  ]
+}
